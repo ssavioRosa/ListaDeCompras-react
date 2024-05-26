@@ -1,0 +1,133 @@
+.conteinerLogin{
+    height: 530px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: solid 6px white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    width: 350px;
+}
+.topoLogin{
+    height:200px ;
+}
+.iconeLogin{
+    font-size: 100px;
+    color: white;
+   
+}
+.formularioLogin{
+    margin-top: 0px;
+    height: 300px;
+}
+.logar{
+    margin: auto;
+    margin-top: 20px;
+
+}
+.voltarCadastro{
+    margin: auto;
+    margin-top: 20px;
+}
+.conteinerLoginIncorreto{
+    height: 530px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: solid 6px red;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    display: block;
+
+}
+.loginIncorreto{
+    border: solid 3px rgb(0, 0, 0);
+    background-color: rgb(241, 57, 57);
+}
+
+.loginIncorreto::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+p{
+color: rgb(241, 57, 57);
+margin: auto;
+font-size: 25px;
+margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .conteinerLogin{
+        height: 530px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        border: solid 6px white;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconeLogin{
+        font-size: 80px;
+        color: white;
+
+    }
+    .login{
+        width: 250px;
+    }
+    button{
+        height: 40px;
+        width: 100px;
+    }
+    .voltarCadastro{
+        width: 135px;
+    }
+ 
+    .conteinerLoginIncorreto{
+        height: 530px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        border: solid 6px red;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        display: block;
+    
+    }
+    .loginIncorreto{
+        border: solid 3px rgb(0, 0, 0);
+        background-color: rgb(241, 57, 57);
+        width: 250px;
+    }
+    
+    .loginIncorreto::placeholder{
+        color: rgb(0, 0, 0);
+    }
+    
+    p{
+    color: rgb(241, 57, 57);
+    margin: auto;
+    font-size: 25px;
+    margin-top: 10px;
+    }
+}

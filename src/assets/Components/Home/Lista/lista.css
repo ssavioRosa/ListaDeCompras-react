@@ -1,0 +1,90 @@
+.lista{
+    margin-left: 20px;
+    width: 700px;
+    height: 600px;
+    background-color: rgb(29, 21, 21);
+    border-radius: 25px;
+    border: solid 6px white;
+    overflow-y: auto;
+    max-height: 600px; 
+    overflow-x: hidden;
+    
+}
+thead{
+    color: white;
+    font-size: 25px;
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+}
+th{
+    width: 175px;
+}
+svg{
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    width: 700px;
+    margin-top: 10px;
+    margin: auto;
+
+}
+tr{
+    height: 50px;
+    
+
+}
+td{
+    font-size: 20px;
+    
+    color: white;
+
+}
+@media screen and (max-width: 600px) {
+    .lista{
+        margin: auto;
+        width: 350px;
+        height: 550px;
+        background-color: rgb(29, 21, 21);
+        border-radius: 25px;
+        border: solid 6px white;
+        overflow-y: auto;
+        max-height: 600px; 
+        overflow-x: hidden;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    thead{
+        color: white;
+        font-size: 20px;
+        border-radius: 25px;
+        width: 350px;
+        margin: auto;
+    }
+    th{
+        width: 60px;
+    }
+    svg{
+        font-size: 20px;
+    }
+    table{
+        margin: auto;
+        width: 350px;
+        margin-top: 10px;
+        margin: auto;
+    
+    }
+    tr{
+        height: 50px;
+        
+    
+    }
+    td{
+        font-size: 20px;
+        
+        color: white;
+    
+    }
+        
+}

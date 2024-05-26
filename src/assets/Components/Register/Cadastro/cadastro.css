@@ -1,0 +1,81 @@
+.conteinerCadastro{
+    height: 700px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: solid 6px white;
+    margin-top:120px;
+    display: flex;
+    flex-direction: column;
+   
+}
+input{
+    width: 350px;
+}
+.topoCadastro{
+    height:200px ;
+}
+.iconeCadastro{
+    font-size: 100px;
+    color: white;
+   
+}
+.formularioCadastro{
+    height: 300px;
+}
+.cadastrar{
+    margin: auto;
+    margin-top: 20px;
+
+}
+.voltarLogin{
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .conteinerCadastro{
+        height: 600px;
+        width: 350px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        border: solid 6px white;
+        margin-top:auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+       
+    }
+
+    .cadastro{
+       width: 250px;
+       height: 120px;
+    }
+    .topoCadastro{
+        height:150px ;
+    }
+    .iconeCadastro{
+        font-size: 80px;
+        color: white;
+       
+    }
+    .formularioCadastro{
+        height: 300px;
+    }
+    .cadastrar{
+        margin: auto;
+        margin-top: 20px;
+        width: 135px;
+    }
+    .voltarLogin{
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 768px;
+    width: 1280px;
+    background-color: rgb(22, 22, 129);
+    border-radius: 25px;
+    border: solid 6px white;
+    
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        height: 868px;
+        width: 380px;
+        background-color: rgb(22, 22, 129);
+        border-radius: 25px;
+        border: solid 6px white;
+        flex-direction: column;
+        
+    }
+}
